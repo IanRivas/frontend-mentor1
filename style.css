@@ -1,0 +1,100 @@
+@font-face{
+     font-family: Kumbh Sans;
+     src: url(./Kumbh_Sans/KumbhSans-Regular.ttf)
+}
+
+*{
+   box-sizing: border-box; 
+   margin: 0;
+   padding: 0;
+}
+
+html{
+     font-size:62.5%;
+     font-family: Kumbh Sans;
+     
+}
+footer{
+    position: relative;
+    top:15rem;
+}
+body{
+    background: hsl(227, 10%, 46%);
+    background-image: url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
+    background-position-x: -75rem,10rem;
+    background-position-y: -60rem,10rem;
+    background-repeat: no-repeat,no-repeat;
+
+}
+.card{
+    background-color: white;
+    position: relative;
+    top: 10rem;
+    border: transparent;
+    border-radius: 1rem;
+    margin: 0 auto;
+    width: 18rem;
+    height: 21rem;
+}
+.perfil {
+    width: 15rem;
+    height: auto;
+    margin: 0 auto;
+    
+    
+}
+.perfil img{
+    position: relative;
+    bottom: 2.8rem;
+    width: 5rem;
+    border:solid white;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.top-back{
+    border-radius: 1rem 1rem 0 0;
+    height: 8rem;
+    background-image: url(images/bg-pattern-card.svg);
+    background-size: 20rem;
+}
+.data {
+    position: relative;
+    bottom: 2rem;
+    text-align: center;
+}
+.data p{
+    color: hsl(0, 0%, 59%);
+    font-size: 8px;
+}
+.data span{
+    color: hsl(0, 0%, 59%)
+}
+.social{
+    margin: 0 auto;
+    text-align: center;
+    border-top:solid rgb(204, 201, 201) 0.1px;
+    
+}
+.social div{
+    padding-top: 1.7rem;
+    display: inline-block;
+    width: 5rem;
+    height: auto;
+}
+.social div span{
+    padding-top: 5px;
+    color: hsl(0, 0%, 59%);
+    display: block;
+    font-size: 6px;
+}
+.attribution{
+    width: 20rem;
+    height: auto;
+    margin:0 auto;
+}
+
+
