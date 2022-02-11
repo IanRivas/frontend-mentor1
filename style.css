@@ -20,11 +20,14 @@ footer{
 }
 body{
     background: hsl(227, 10%, 46%);
-    background-image: url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
-    background-position-x: -75rem,10rem;
-    background-position-y: -60rem,10rem;
-    background-repeat: no-repeat,no-repeat;
 
+}
+body .top{
+    position: absolute;
+
+}
+body .bottom{
+    position: absolute;
 }
 .card{
     background-color: white;
